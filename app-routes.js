@@ -10,7 +10,6 @@
 const _ = require('lodash');
 const glob = require('glob');
 const Path = require('path');
-const config = require('config');
 const passport = require('passport');
 const { ForbiddenError } = require('./common/errors');
 const { UnauthorizedError } = require('./common/errors');
